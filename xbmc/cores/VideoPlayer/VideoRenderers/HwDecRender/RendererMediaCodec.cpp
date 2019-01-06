@@ -95,8 +95,8 @@ void CRendererMediaCodec::ReleaseBuffer(int idx)
 CRenderInfo CRendererMediaCodec::GetRenderInfo()
 {
   CRenderInfo info;
-  info.max_buffer_size = 4;
-  info.optimal_buffer_size = 3;
+  info.max_buffer_size = 8;
+  info.optimal_buffer_size = 8;
   return info;
 }
 
